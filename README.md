@@ -65,11 +65,13 @@ This dataset has been generated for testing, learning, and demonstrating various
 ]
 💻 How to Use
 ▶️ Load in Python
+
 import pandas as pd
 
 url = "https://raw.githubusercontent.com/CM-Kali/pk_fake_dataset_json/main/pakistani_people_dataset.json"
 df = pd.read_json(url)
 print(df.head())
+
 
 ▶️ Load in JavaScript
 fetch('pakistani_people_dataset.json')

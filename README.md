@@ -85,7 +85,7 @@ print(df.head())
 print(df.info())
 
 🔹 In JavaScript (Fetch API)
-fetch('pakistani_people_dataset.json')
+'''fetch('pakistani_people_dataset.json')
   .then(response => response.json())
   .then(data => console.log(data.slice(0, 5)));
 

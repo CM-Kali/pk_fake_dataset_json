@@ -1,5 +1,4 @@
 # pk_fake_dataset_json
-# 🇵🇰 Pakistani People Dataset (JSON)
 
 This repository contains a **synthetic dataset** representing fictional individuals from Pakistan.  
 It is ideal for **data science projects**, **machine learning demos**, **testing**, and **educational use** where realistic, well-structured JSON data is required.

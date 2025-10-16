@@ -1,7 +1,6 @@
-Here’s your final professional README.md for your repo pk_fake_dataset_json — in exact same structure, but correctly adapted for your JSON dataset instead of CSV.
 
 # pk_fake_dataset_json
-A synthetic dataset of 150+ fake Pakistani individuals for AI & data analysis projects.
+A synthetic dataset of 1000 fake Pakistani individuals for AI & data analysis projects.
 
 # 🇵🇰 Pakistani People Dataset (Synthetic)
 ![License: CC0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)
@@ -76,7 +75,7 @@ Encoding: UTF-8
 
 ⚙️ How to Use
 🔹 In Python (pandas)
-'''python
+```
 [import pandas as pd
 
 url = "https://raw.githubusercontent.com/CM-Kali/pk_fake_dataset_json/main/pakistani_people_dataset.json"
@@ -85,11 +84,13 @@ df = pd.read_json(url)
 print(df.head())
 print(df.info())
 ]
+```
 🔹 In JavaScript (Fetch API)
-'''fetch('pakistani_people_dataset.json')
+```
+fetch('pakistani_people_dataset.json')
   .then(response => response.json())
   .then(data => console.log(data.slice(0, 5)));
-
+```
 💡 Applications
 
 Data preprocessing & cleaning practice

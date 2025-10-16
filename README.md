@@ -77,14 +77,14 @@ Encoding: UTF-8
 ⚙️ How to Use
 🔹 In Python (pandas)
 '''python
-import pandas as pd
+[import pandas as pd
 
 url = "https://raw.githubusercontent.com/CM-Kali/pk_fake_dataset_json/main/pakistani_people_dataset.json"
 df = pd.read_json(url)
 
 print(df.head())
 print(df.info())
-
+]
 🔹 In JavaScript (Fetch API)
 '''fetch('pakistani_people_dataset.json')
   .then(response => response.json())

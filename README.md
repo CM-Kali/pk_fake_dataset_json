@@ -76,6 +76,7 @@ Encoding: UTF-8
 
 ⚙️ How to Use
 🔹 In Python (pandas)
+'''python
 import pandas as pd
 
 url = "https://raw.githubusercontent.com/CM-Kali/pk_fake_dataset_json/main/pakistani_people_dataset.json"

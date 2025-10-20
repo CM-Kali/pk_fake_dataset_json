@@ -78,7 +78,7 @@ Encoding: UTF-8
 ```
 import pandas as pd
 
-url = "https://raw.githubusercontent.com/CM-Kali/pk_fake_dataset_json/main/pakistani_people_dataset.json"
+url = "https://raw.githubusercontent.com/CM-Kali/pk_fake_dataset_json/main/fake_people_dataset.json"
 df = pd.read_json(url)
 
 print(df.head())

@@ -12,7 +12,7 @@ A **synthetic dataset** of **150+ Pakistani individuals**, created for use in **
 This dataset reflects realistic Pakistani demographic patterns — while containing **no personal or real data** — making it completely safe and open for **educational, academic, and research purposes**.
 
 ---
-
+ 
 ## 📊 Dataset Overview
 
 | Attribute | Description |
